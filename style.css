@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Work Sans", sans-serif;
+    
+   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgba(255, 144, 14, 0.1);
+    
+    
+    
+
+}
+.nav-bar{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    margin-left: 228px;
+    margin-right: 228px;
+}
+
+ul{
+    margin-top: 50px;
+    display: flex;
+    max-width: 477px;
+   
+}
+.w{
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 500;
+margin-right: 40px;
+}
+
+.all-font{
+    color: rgb(114, 114, 114);
+font-family: Work Sans;
+font-size: 1rem;
+font-weight: 400;
+}
+.banner{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    
+}
+.btn{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 1.25rem;
+font-weight: 600;
+border-radius: 8px;
+background: rgb(255, 144, 14);
+padding: 18px 22px;
+border: none;
+}
+.btn:hover{
+    background-color: black;
+    transition: 1s;
+}
+
+.huh{
+    margin-left: 228px;
+    margin-right: 228px;
+    
+}
+
+
+.hi{
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+    
+    
+    
+    
+    
+   
+    
+}
+.abba1{
+    margin-top: 85px;
+    display: flex;
+    margin-left: 228px;
+    margin-right: 228px;
+}
+.gr{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+   
+}
+.sec{
+    max-width: 500px;
+    margin-left: 30px;
+    margin-top: 210px;
+    
+    
+}
+#q{
+    color: #727272;
+
+}
+#feature{
+    color: #FF900E;
+
+}
+
+
+@media screen and (max-width:576px) {
+    .nav-bar,ul{
+        flex-direction: column;
+        margin: 0 auto;
+
+        
+        
+    }
+    ul{
+      margin-top: 20px;
+    }
+    .huh{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .abba1{
+        flex-direction: column;
+        margin: 50px;
+       
+    }
+    img{
+        width: 100%;
+    }
+    .gr{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+
+    }
+    .sec{
+        margin-top: 100px;
+    }
+    
+    
+}
