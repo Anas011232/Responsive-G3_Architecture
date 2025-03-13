@@ -123,6 +123,43 @@ img{
     color: #FF900E;
 
 }
+.abba2{
+    margin-top: 85px;
+    display: flex;
+    margin-left: 228px;
+    margin-right: 228px;
+    max-width: 1440px;
+
+}
+#border{
+    border-left: 4px solid #FF900E;
+    padding: 8px;
+
+}
+.box{
+    padding: 20px;
+    border-radius: 8px;
+
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+background: rgb(255, 255, 255);
+margin-top: 20px;
+}
+.son2{
+    margin-left: 100px;
+    margin-top: 100px;
+    
+    text-align: center;
+    
+}
+.son-img{
+    
+    width: 100%;
+    
+}
+#ten{
+    font-weight: 800;
+}
+
 
 
 @media screen and (max-width:576px) {
@@ -135,6 +172,10 @@ img{
     }
     ul{
       margin-top: 20px;
+      margin-left: 400px;
+    }
+    li{
+        margin-top: 20px;
     }
     .huh{
         margin-left: 20px;
@@ -156,6 +197,20 @@ img{
     .sec{
         margin-top: 100px;
     }
+    .abba2{
+        flex-direction: column;
+        margin: 0;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+        margin-bottom: 85px;
+        margin-top: 85px;
+    }
+    .son2{
+        margin: 0;
+        margin-top: 30px;
+    }
+    
     
     
 }
