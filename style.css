@@ -159,6 +159,39 @@ margin-top: 20px;
 #ten{
     font-weight: 800;
 }
+.abba3{
+    margin-top: 85px;
+    
+    margin-left: 228px;
+    margin-right: 228px;
+    max-width: 1440px;
+    margin-bottom: 40px;
+
+}
+.cards{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 124px;
+}
+.cr{
+    padding: 35px;
+    box-sizing: border-box;
+border: 1px solid rgb(255, 144, 14);
+border-radius: 8px;
+height: 200px;
+text-align: center;
+align-items: center;
+justify-content: center;
+}
+.cr>img{
+  
+    width: 45.22px;
+height: 45.22px;
+}
+.anas{
+    max-width: 500px;
+}
 
 
 
@@ -172,7 +205,7 @@ margin-top: 20px;
     }
     ul{
       margin-top: 20px;
-      margin-left: 400px;
+     
     }
     li{
         margin-top: 20px;
@@ -197,7 +230,7 @@ margin-top: 20px;
     .sec{
         margin-top: 100px;
     }
-    .abba2{
+    .abba2, .abba3{
         flex-direction: column;
         margin: 0;
         margin-left: 20px;
@@ -209,6 +242,12 @@ margin-top: 20px;
     .son2{
         margin: 0;
         margin-top: 30px;
+    }
+    .cards{
+       margin-top: 60px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
     }
     
     
